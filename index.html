@@ -1,1 +1,274 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashutosh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #f5f6fa;
+      color: #222;
+    }
+    header {
+      background: #23236c;
+      color: #fff;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.2rem 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      background: #181854;
+      padding: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #ffda79;
+    }
+    .content {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 16px rgba(50, 50, 170, 0.08);
+      margin-top: -40px;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #23236c;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1rem;
+      font-size: 1.7rem;
+      color: #23236c;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .two-col {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .col {
+      flex: 1 1 260px;
+    }
+    .skills-list, .lang-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      padding-left: 0;
+      list-style: none;
+    }
+    .skills-list li, .lang-list li {
+      background: #eaf0fb;
+      color: #222;
+      padding: 0.3rem 0.8rem;
+      border-radius: 15px;
+      font-size: 1rem;
+    }
+    .edu-table, .exp-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .edu-table th, .edu-table td, .exp-table th, .exp-table td {
+      border-bottom: 1px solid #ececec;
+      padding: 0.5rem 0.7rem;
+      text-align: left;
+    }
+    .exp-table th, .edu-table th {
+      background: #f3f3fa;
+    }
+    @media (max-width: 700px) {
+      .content {
+        padding: 1rem;
+      }
+      .two-col {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Ashutosh</h1>
+  <p>Mechanical Engineer | 5+ Years Experience</p>
+  <p>
+    <a href="mailto:ashutosh.105megmail.com" style="color:#ffda79;">ashutosh.105megmail.com</a> |
+    <a href="tel:+919772838842" style="color:#ffda79;">+91 9772838842</a>
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/ashutosh-904b51135" target="_blank" style="color:#ffda79;">LinkedIn</a>
+  </p>
+  <p>Gurugram, India</p>
+</header>
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#certs">Certifications</a>
+</nav>
+<div class="content">
+  <section id="profile">
+    <h2>Profile Summary</h2>
+    <p>
+      Aiming for a challenging role as a mechanical engineer in a dynamic organization to enhance expertise and contribute significantly to strategic endeavors. Eager to leverage mechanical design, analysis, and project management skills while pursuing continuous development. Committed to innovation and operational excellence.
+    </p>
+  </section>
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <ul class="skills-list">
+      <li>Costing</li>
+      <li>Yield Improvement</li>
+      <li>RFQ</li>
+      <li>Stamping</li>
+      <li>Part Modeling</li>
+      <li>Sheet Metal</li>
+      <li>Kaizen</li>
+      <li>5-s</li>
+      <li>AutoCAD</li>
+      <li>MS Office</li>
+      <li>Process Improvement</li>
+      <li>Creo</li>
+      <li>HyperMesh</li>
+      <li>UG NX</li>
+      <li>Mould Design</li>
+      <li>Press Tool Design</li>
+      <li>CNC Programming</li>
+      <li>CATIA V5</li>
+      <li>SolidWorks 2022</li>
+      <li>Salesforce CRM</li>
+      <li>SAP HANA</li>
+      <li>Prototype Development</li>
+      <li>Product Design</li>
+      <li>Automation</li>
+    </ul>
+    <h3>Languages</h3>
+    <ul class="lang-list">
+      <li>English</li>
+      <li>Hindi</li>
+    </ul>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <table class="edu-table">
+      <tr><th>Degree</th><th>Institution</th><th>Year</th></tr>
+      <tr>
+        <td>MBAPGDM</td>
+        <td>Indira Gandhi National Open University (IGNOU), Delhi</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>B.Tech/B.E. (Mechanical)</td>
+        <td>Rajasthan Technical University, Jaipur</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>XIIth (English)</td>
+        <td>N/A</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>Xth (English)</td>
+        <td>N/A</td>
+        <td>2012</td>
+      </tr>
+    </table>
+  </section>
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <table class="exp-table">
+      <tr><th>Duration</th><th>Company & Role</th><th>Highlights</th></tr>
+      <tr>
+        <td>Jun 2024 - Present</td>
+        <td>ASHUTOSH, Research and Development Mechanical Engineer</td>
+        <td>
+          - Led design of components: 15% efficiency gain, 20% reduction in production costs<br>
+          - Enhanced products with advanced research (10% better performance, 25% less maintenance)<br>
+          - Streamlined RD: 30% faster time-to-market
+        </td>
+      </tr>
+      <tr>
+        <td>May 2022 - Jun 2024</td>
+        <td>DEHN India Pvt Ltd, R&D Mechanical Engineer</td>
+        <td>
+          - Design & development for Metalman Auto, Sona Mandhira, KAI Manufacturing<br>
+          - VAVE projects, feasibility reports, technical evaluations<br>
+          - Welding, modeling, assembly, BOM, drafting, ECN, ECR, inspections, prototype making
+        </td>
+      </tr>
+      <tr>
+        <td>Mar 2021 - Apr 2022</td>
+        <td>Design Engineer, Metalman Auto</td>
+        <td>
+          - RFQ feasibility for OEMs (Bajaj, Honda, TVS, BMW, Hero, etc.)<br>
+          - Sheet metal projects & optimization; parts, BOM, routing
+        </td>
+      </tr>
+      <tr>
+        <td>Jul 2019 - Mar 2021</td>
+        <td>Design Engineer, Sona Mandhira Pvt Ltd</td>
+        <td>
+          - Steering & suspension benchmarking for 4-wheelers<br>
+          - APQP, PPAP, PFD, Control Plan, prototypes, QC, tool design
+        </td>
+      </tr>
+      <tr>
+        <td> Mar 2018 - Jun 2019</td>
+        <td>Design Trainee, Central Institute of Tool Design</td>
+        <td>
+          - Plastic injection molding optimization, process improvements<br>
+          - CAD/CAM/CAE projects
+        </td>
+      </tr>
+    </table>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Optimization of Process Parameters in Plastic Injection Molding (Polypropylene, tensile strength & shrinkage improved using DOE/Design Expert Software)</li>
+      <li>Feasibility, benchmarking, nesting optimization for OEMs (Bajaj, Honda, Hero, TVS, BMW, etc.)</li>
+      <li>Prototype development, BOM, and routing automation</li>
+    </ul>
+  </section>
+  <section id="certs">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Master Certificate in Computer Aided Tool Engineering (CAD/CAM/CAE)</li>
+      <li>Vocational Trainee at Bharat Heavy Electricals Ltd (BHEL, Haridwar)</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Other Details</h2>
+    <ul>
+      <li>City: Gurugram</li>
+      <li>Country: India</li>
+      <li>Hobbies: Travelling, Listening to Music</li>
+    </ul>
+  </section>
+</div>
+</body>
+</html>
